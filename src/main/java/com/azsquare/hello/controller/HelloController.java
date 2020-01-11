@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloController {
 
     @RequestMapping(value="/", method = RequestMethod.GET)
-    public ModelAndView login(){
+    public ModelAndView hello(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("home-p1");
         return modelAndView;
